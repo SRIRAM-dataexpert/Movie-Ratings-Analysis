@@ -1,0 +1,51 @@
+============================================================
+STAGE 3: EXPLORATORY DATA ANALYSIS (EDA) REPORT
+============================================================
+
+--- 1. OVERALL DATASET METRICS ---
+Total Unique Movies: 9,742
+Total Ratings Logged: 100,836
+Total Active Users: 610
+Mean Rating Score: 3.50 / 5.00
+Median Rating Score: 3.50 / 5.00
+Most Frequent Rating: 4.0 stars
+
+--- 2. TOP 10 MOST-RATED MOVIES ---
+  1. Forrest Gump — 329 reviews (Avg: 4.16★)
+  2. Shawshank Redemption, The — 317 reviews (Avg: 4.43★)
+  3. Pulp Fiction — 307 reviews (Avg: 4.20★)
+  4. Silence of the Lambs, The — 279 reviews (Avg: 4.16★)
+  5. Matrix, The — 278 reviews (Avg: 4.19★)
+  6. Star Wars: Episode IV - A New Hope — 251 reviews (Avg: 4.23★)
+  7. Jurassic Park — 238 reviews (Avg: 3.75★)
+  8. Braveheart — 237 reviews (Avg: 4.03★)
+  9. Terminator 2: Judgment Day — 224 reviews (Avg: 3.97★)
+  10. Schindler's List — 220 reviews (Avg: 4.22★)
+
+--- 3. TOP 10 HIGHEST-RATED MOVIES (>= 50 Reviews) ---
+  1. Shawshank Redemption, The — 4.43★ (317 reviews)
+  2. Godfather, The — 4.29★ (192 reviews)
+  3. Fight Club — 4.27★ (218 reviews)
+  4. Cool Hand Luke — 4.27★ (57 reviews)
+  5. Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb — 4.27★ (97 reviews)
+  6. Rear Window — 4.26★ (84 reviews)
+  7. Godfather: Part II, The — 4.26★ (129 reviews)
+  8. Departed, The — 4.25★ (107 reviews)
+  9. Goodfellas — 4.25★ (126 reviews)
+  10. Casablanca — 4.24★ (100 reviews)
+
+--- 4. TOP 5 GENRES BY RATINGS VOLUME ---
+  - Drama: 41,928 ratings
+  - Comedy: 39,053 ratings
+  - Action: 30,635 ratings
+  - Thriller: 26,452 ratings
+  - Adventure: 24,161 ratings
+
+--- 5. GENERATED VISUALIZATIONS ---
+  - outputs/01_rating_distribution.png
+  - outputs/02_top_10_most_rated_movies.png
+  - outputs/03_top_10_highest_rated_movies.png
+  - outputs/04_genre_distribution.png
+  - outputs/05_ratings_trend_by_year.png
+
+============================================================

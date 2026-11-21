@@ -1,0 +1,70 @@
+============================================================
+STAGE 1: DATASET INSPECTION SUMMARY REPORT
+============================================================
+
+--- 1. MOVIES DATASET (movies.csv) ---
+Dimensions: 9742 rows x 3 columns
+Columns: ['movieId', 'title', 'genres']
+
+Data Types:
+  - movieId: int64
+  - title: str
+  - genres: str
+
+Missing Values:
+  - movieId: 0 missing
+  - title: 0 missing
+  - genres: 0 missing
+
+Duplicate Movie IDs: 0
+
+Sample 5 Rows:
+   movieId                               title                                       genres
+0        1                    Toy Story (1995)  Adventure|Animation|Children|Comedy|Fantasy
+1        2                      Jumanji (1995)                   Adventure|Children|Fantasy
+2        3             Grumpier Old Men (1995)                               Comedy|Romance
+3        4            Waiting to Exhale (1995)                         Comedy|Drama|Romance
+4        5  Father of the Bride Part II (1995)                                       Comedy
+
+--------------------------------------------------
+
+--- 2. RATINGS DATASET (ratings.csv) ---
+Dimensions: 100836 rows x 4 columns
+Columns: ['userId', 'movieId', 'rating', 'timestamp']
+
+Data Types:
+  - userId: int64
+  - movieId: int64
+  - rating: float64
+  - timestamp: int64
+
+Missing Values:
+  - userId: 0 missing
+  - movieId: 0 missing
+  - rating: 0 missing
+  - timestamp: 0 missing
+
+Duplicate User-Movie Rating Pairs: 0
+
+Rating Summary Statistics:
+count    100836.000000
+mean          3.501557
+std           1.042529
+min           0.500000
+25%           3.000000
+50%           3.500000
+75%           4.000000
+max           5.000000
+
+Unique Users: 610
+Unique Rated Movies: 9,724
+
+Sample 5 Rows:
+   userId  movieId  rating  timestamp
+0       1        1     4.0  964982703
+1       1        3     4.0  964981247
+2       1        6     4.0  964982224
+3       1       47     5.0  964983815
+4       1       50     5.0  964982931
+
+============================================================
